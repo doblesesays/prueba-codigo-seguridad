@@ -1,5 +1,6 @@
+var text = "";
+
 function random() {
-    var text = "";
     var possible = "RAMVNI";
 
     for (var i = 0; i < 4; i++)
@@ -13,4 +14,5 @@ console.log(random());
 function verifyCode() {
     var code = document.getElementById("code").value;
     console.log(code);
+    console.log(text);
 }
